@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20ECD9042945F6BD00848CF7 /* DetailField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ECD9032945F6BD00848CF7 /* DetailField.swift */; };
 		20F124E928DFE30A00858871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F124E828DFE30A00858871 /* AppDelegate.swift */; };
 		20F124EB28DFE30A00858871 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F124EA28DFE30A00858871 /* SceneDelegate.swift */; };
-		20F124ED28DFE30A00858871 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F124EC28DFE30A00858871 /* ViewController.swift */; };
+		20F124ED28DFE30A00858871 /* PlanetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F124EC28DFE30A00858871 /* PlanetsViewController.swift */; };
 		20F124F028DFE30A00858871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F124EE28DFE30A00858871 /* Main.storyboard */; };
 		20F124F228DFE30F00858871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F124F128DFE30F00858871 /* Assets.xcassets */; };
 		20F124F528DFE30F00858871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F124F328DFE30F00858871 /* LaunchScreen.storyboard */; };
+		20F1250228E1165C00858871 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F1250128E1165C00858871 /* APIService.swift */; };
+		20F1250428E116BE00858871 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F1250328E116BE00858871 /* Planet.swift */; };
+		20F1250728E11CEF00858871 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F1250628E11CEF00858871 /* UIColorExtension.swift */; };
+		20F1250A28E11D9F00858871 /* PlanetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F1250928E11D9F00858871 /* PlanetCell.swift */; };
+		20F1250C28E12B2700858871 /* PlanetsPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F1250B28E12B2700858871 /* PlanetsPack.swift */; };
+		20F1250E28E12F4300858871 /* PlanetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F1250D28E12F4300858871 /* PlanetDetailViewController.swift */; };
+		255292E82F2391A0AB93F566 /* Pods_SWPlanets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E84F6256C21E5C35A99F3E4F /* Pods_SWPlanets.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20ECD9032945F6BD00848CF7 /* DetailField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailField.swift; sourceTree = "<group>"; };
 		20F124E528DFE30A00858871 /* SWPlanets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWPlanets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F124E828DFE30A00858871 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20F124EA28DFE30A00858871 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		20F124EC28DFE30A00858871 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20F124EC28DFE30A00858871 /* PlanetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsViewController.swift; sourceTree = "<group>"; };
 		20F124EF28DFE30A00858871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20F124F128DFE30F00858871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20F124F428DFE30F00858871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20F124F628DFE30F00858871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20F1250128E1165C00858871 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		20F1250328E116BE00858871 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		20F1250628E11CEF00858871 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		20F1250928E11D9F00858871 /* PlanetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCell.swift; sourceTree = "<group>"; };
+		20F1250B28E12B2700858871 /* PlanetsPack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsPack.swift; sourceTree = "<group>"; };
+		20F1250D28E12F4300858871 /* PlanetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailViewController.swift; sourceTree = "<group>"; };
+		65CC85D198C737FB8D77159F /* Pods-SWPlanets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWPlanets.debug.xcconfig"; path = "Target Support Files/Pods-SWPlanets/Pods-SWPlanets.debug.xcconfig"; sourceTree = "<group>"; };
+		B980496E15DAA30F1B131C8F /* Pods-SWPlanets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWPlanets.release.xcconfig"; path = "Target Support Files/Pods-SWPlanets/Pods-SWPlanets.release.xcconfig"; sourceTree = "<group>"; };
+		E84F6256C21E5C35A99F3E4F /* Pods_SWPlanets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWPlanets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				255292E82F2391A0AB93F566 /* Pods_SWPlanets.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07C02004CF54651A00EAF28D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65CC85D198C737FB8D77159F /* Pods-SWPlanets.debug.xcconfig */,
+				B980496E15DAA30F1B131C8F /* Pods-SWPlanets.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		20F124DC28DFE30A00858871 = {
 			isa = PBXGroup;
 			children = (
 				20F124E728DFE30A00858871 /* SWPlanets */,
 				20F124E628DFE30A00858871 /* Products */,
+				07C02004CF54651A00EAF28D /* Pods */,
+				B7449506F5793D19EF68EC8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +86,70 @@
 		20F124E728DFE30A00858871 /* SWPlanets */ = {
 			isa = PBXGroup;
 			children = (
+				20F124FC28E114A300858871 /* Model */,
+				20F1250828E11D4700858871 /* View */,
+				20F124FE28E114BF00858871 /* Controller */,
+				20F124FD28E114AF00858871 /* ViewController */,
+				20F1250528E11CD500858871 /* Extensions */,
 				20F124E828DFE30A00858871 /* AppDelegate.swift */,
 				20F124EA28DFE30A00858871 /* SceneDelegate.swift */,
-				20F124EC28DFE30A00858871 /* ViewController.swift */,
 				20F124EE28DFE30A00858871 /* Main.storyboard */,
 				20F124F128DFE30F00858871 /* Assets.xcassets */,
 				20F124F328DFE30F00858871 /* LaunchScreen.storyboard */,
 				20F124F628DFE30F00858871 /* Info.plist */,
 			);
 			path = SWPlanets;
+			sourceTree = "<group>";
+		};
+		20F124FC28E114A300858871 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20F1250B28E12B2700858871 /* PlanetsPack.swift */,
+				20F1250328E116BE00858871 /* Planet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20F124FD28E114AF00858871 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				20F124EC28DFE30A00858871 /* PlanetsViewController.swift */,
+				20F1250D28E12F4300858871 /* PlanetDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		20F124FE28E114BF00858871 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				20F1250128E1165C00858871 /* APIService.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		20F1250528E11CD500858871 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				20F1250628E11CEF00858871 /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		20F1250828E11D4700858871 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20F1250928E11D9F00858871 /* PlanetCell.swift */,
+				20ECD9032945F6BD00848CF7 /* DetailField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B7449506F5793D19EF68EC8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E84F6256C21E5C35A99F3E4F /* Pods_SWPlanets.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20F124F928DFE30F00858871 /* Build configuration list for PBXNativeTarget "SWPlanets" */;
 			buildPhases = (
+				A06A4941143D0D5B409C2882 /* [CP] Check Pods Manifest.lock */,
 				20F124E128DFE30A00858871 /* Sources */,
 				20F124E228DFE30A00858871 /* Frameworks */,
 				20F124E328DFE30A00858871 /* Resources */,
+				E6D72E89D15931471E4CEC88 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +220,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A06A4941143D0D5B409C2882 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SWPlanets-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6D72E89D15931471E4CEC88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SWPlanets/Pods-SWPlanets-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SWPlanets/Pods-SWPlanets-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SWPlanets/Pods-SWPlanets-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20F124E128DFE30A00858871 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20F124ED28DFE30A00858871 /* ViewController.swift in Sources */,
+				20F124ED28DFE30A00858871 /* PlanetsViewController.swift in Sources */,
+				20F1250E28E12F4300858871 /* PlanetDetailViewController.swift in Sources */,
+				20F1250228E1165C00858871 /* APIService.swift in Sources */,
+				20F1250C28E12B2700858871 /* PlanetsPack.swift in Sources */,
 				20F124E928DFE30A00858871 /* AppDelegate.swift in Sources */,
 				20F124EB28DFE30A00858871 /* SceneDelegate.swift in Sources */,
+				20F1250428E116BE00858871 /* Planet.swift in Sources */,
+				20F1250728E11CEF00858871 /* UIColorExtension.swift in Sources */,
+				20F1250A28E11D9F00858871 /* PlanetCell.swift in Sources */,
+				20ECD9042945F6BD00848CF7 /* DetailField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,13 +420,16 @@
 		};
 		20F124FA28DFE30F00858871 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65CC85D198C737FB8D77159F /* Pods-SWPlanets.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GUJ7YD3Y6T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SWPlanets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "SW Planets";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -301,7 +440,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wimansha..SWPlanets;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wimansha.swplanets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -311,13 +450,16 @@
 		};
 		20F124FB28DFE30F00858871 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B980496E15DAA30F1B131C8F /* Pods-SWPlanets.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GUJ7YD3Y6T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SWPlanets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "SW Planets";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -328,7 +470,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wimansha..SWPlanets;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wimansha.swplanets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
